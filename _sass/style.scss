@@ -8,4 +8,8 @@
 
 .container {
   @include span-columns(12);
+
+  @include media($medium-screen){
+    // stuff
+  }
 }
