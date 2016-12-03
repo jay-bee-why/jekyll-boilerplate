@@ -1,3 +1,7 @@
+// Variables: _core/base/variables
+// Breakpoints: _core/base/grid-settings -- see _core/base/base to turn this on
+// Typography defaults: _core/base/typography
+
 .row {
   @include outer-container;
 }
