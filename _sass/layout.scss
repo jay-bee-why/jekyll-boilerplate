@@ -1,14 +1,7 @@
-body {
-  @extend .bg-near-white;
-}
-
 .row {
-  @extend .w-100;
-  @extend .pv3;
-  @extend .pv5-ns;
+  @include outer-container;
 }
 
 .container {
-  @extend .center;
-  @extend .mw7;
+  @include span-columns(12);
 }
